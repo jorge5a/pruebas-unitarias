@@ -18,4 +18,4 @@ jobs:
         run: pip install -r requirements.txt
         
       - name: Ejecutar Pruebas
-        run: python -mpytest
+        run: python -m pytest
